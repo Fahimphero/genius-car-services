@@ -1,0 +1,17 @@
+[debug] [2022-04-30T00:51:00.114Z] ----------------------------------------------------------------------
+[debug] [2022-04-30T00:51:00.115Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\FAHIM\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-04-30T00:51:00.116Z] CLI Version:   10.7.2
+[debug] [2022-04-30T00:51:00.116Z] Platform:      win32
+[debug] [2022-04-30T00:51:00.116Z] Node Version:  v14.17.5
+[debug] [2022-04-30T00:51:00.116Z] Time:          Sat Apr 30 2022 06:51:00 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-04-30T00:51:00.116Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-30T00:51:00.167Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-30T00:51:00.168Z] > authorizing via signed-in user (irfanulislamfahim@gmail.com)
+[debug] [2022-04-30T00:51:00.168Z] [iam] checking project genius-car-services-4c6bc for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-04-30T00:51:00.169Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/genius-car-services-4c6bc:testIamPermissions [none]
+[debug] [2022-04-30T00:51:00.169Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/genius-car-services-4c6bc:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-04-30T00:51:01.624Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/genius-car-services-4c6bc:testIamPermissions 200
+[debug] [2022-04-30T00:51:01.624Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/genius-car-services-4c6bc:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-04-30T00:51:01.625Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-services-4c6bc [none]
+[debug] [2022-04-30T00:51:02.399Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-services-4c6bc 200
