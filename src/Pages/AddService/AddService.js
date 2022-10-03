@@ -5,7 +5,7 @@ const AddService = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
         console.log(data);
-        const url = `https://pacific-atoll-92625.herokuapp.com/service`;
+        const url = `https://genius-car-service-server.onrender.com/service`;
         fetch(url, {
             method: 'POST',
             headers: {

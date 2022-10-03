@@ -7,7 +7,7 @@ const ManageServices = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure?');
         if (proceed) {
-            const url = `https://pacific-atoll-92625.herokuapp.com/service/${id}`;
+            const url = `https://genius-car-service-server.onrender.com/service/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

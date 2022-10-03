@@ -40,7 +40,7 @@ const Checkout = () => {
             phone: event.target.phone.value
 
         }
-        axios.post('https://pacific-atoll-92625.herokuapp.com/order', order)
+        axios.post('https://genius-car-service-server.onrender.com/order', order)
             .then(response => {
                 console.log(response);
                 const { data } = response;
